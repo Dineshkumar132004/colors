@@ -40,7 +40,7 @@ function Electronics(){
                     ))}
                 </div> 
         ):(
-            <p>loding</p>
+            <p>loding...</p>
         )}
         </>
 

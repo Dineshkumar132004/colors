@@ -12,19 +12,27 @@ function Categori(){
     return(
         <>    
             {data ?(
-                <div className="cathead">          
-                {data.map((item)=>(
+                <div className="cathead">
+                    <div className="chead">
+                    <h1 className="cah1"> WELCOME TO</h1>
+                    <h1 className="cah1">COLORS</h1>
+                    <h1 className="cah2">BELIEVE AND BE HAPPY</h1>
+                    </div>           
+                   <div className="catnew">
+                   {data.map((item)=>(
                     <span className="catspan">
                     <a href={item}><span>{item}</span></a>
                     </span>              
-                ))}
+                ))}   
+                    </div>
                 </div>   
          ):(
-            <a>loding</a>
+            <a>LODING....</a>
          )}
-        
+           <div>
+            </div>         
         </>
-      
+        
     )
 
 }

@@ -42,7 +42,7 @@ function Jewelery(){
                     </div>
                 
             ):(
-                <p>lode</p>
+                <p>loding...</p>
             )}
             </>
         )

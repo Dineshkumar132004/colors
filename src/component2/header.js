@@ -12,9 +12,9 @@ function Head(){
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <div className="head6" >
-                <i  class="fa-solid fa-cart-shopping"></i>           
+                <a href="/sighup"><i  class="fa-solid fa-cart-shopping"></i> </a>          
 
-                <h1>Cart</h1>
+                <a href="/sighup"><h1>Cart</h1></a>
             </div>
 
             <div className="sighin">
